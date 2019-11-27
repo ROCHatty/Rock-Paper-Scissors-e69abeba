@@ -9,6 +9,7 @@ if (!isset($_GET['een'])) {
 		<option value="papier">Papier</option>
 		<option value="schaar">Schaar</option>
 	</select>
+	<input type="submit" value="Klik">
 </form>
 <?php
 } else {
@@ -28,6 +29,7 @@ if (!isset($_GET['twee'])) {
 		<option value="papier">Papier</option>
 		<option value="schaar">Schaar</option>
 	</select>
+	<input type="submit" value="Klik">
 	<input type="hidden" name="een" value="<?php echo $_GET['een'] ?>"
 </form>
 <?php
